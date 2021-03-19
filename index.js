@@ -4,6 +4,10 @@ var router = express.Router();
 var bodyParser = require('body-parser');
 var User = require('./models/user-model');
 var Tweet = require('./models/tweet-model');
+var admin = new Tweet();
+admin.uname = "admin";
+admin.tweet = "First Tweet";
+admin.save();
 var Detail = require('./models/user-details');
 
 var jwt = require('jsonwebtoken');
