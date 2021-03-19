@@ -13,8 +13,7 @@ All fields are validated and not allowed to be empty
 Username length should be minimum 4 and maximum 10
 Password and ConfirmPassword length should be minimum 4
 If the Password and ConfirmPassword field matches, then the password is hashed
-User details are then stored in users collection and jwt token is generated.
-But if the Username is repeated, then it shows that User name exists.
+User details are then stored in users collection and jwt token is generated.But if the Username is repeated, then it shows that User name exists.
 
 On URL : "http://localhost:3000/register"
 Get method is used to show all the users
