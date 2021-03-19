@@ -1,7 +1,7 @@
 Database -> TwitterMini
 Contains 3 collections -> details, tweets, users
 details collection contains user details
-tweets collection contains all the tweets (by default 3 admin tweets are present)
+tweets collection contains all the tweets (by default admin tweet is present)
 users collection contains user credentials
 
 On URL : "http://localhost:3000"
