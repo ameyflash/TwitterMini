@@ -18,7 +18,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(expressValidator());
 
 var mongoose = require('mongoose');
-const { db } = require('./models/user-model');
 mongoose.connect("mongodb://localhost:27017/TwitterMini");
 
 var port = process.env.PORT || 3000;
