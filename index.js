@@ -123,7 +123,7 @@ router.route('/login')
         });
     });
 
-router.route('/login/details')
+router.route('/details')
     .get(function(req, res){
         Detail.find({}, { __v : 0}, function(err, det){
             if(err)
